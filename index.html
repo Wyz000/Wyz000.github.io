@@ -93,8 +93,7 @@
           <a class="skyblue-link" href="https://www.jianguoyun.com/p/DZq-VAQQy-64DRjx6vgFIAA">Paper</a> / 
           <a class="skyblue-link" href="https://www.jianguoyun.com/p/Dbm37NkQy-64DRjw6vgFIAA">Video</a>
     <p style="text-align:justify;">
-            This work pushes the boundaries of quadrotor maneuverability by employing a reinforcement learning framework to enable highly dynamic large-scale acrobatic flight.  Leveraging a lightweight neural network (inference time less than 1ms), our approach handles dynamically changing aerobatic points, achieving—for the first time—autonomous inverted flight through a moving gate, a maneuver challenging even for expert human pilots.  Traditional methods require seconds of pre-planning for such maneuvers, precluding real-time adaptation to dynamic environments.
-          </p>
+            This work advances quadrotor agility using reinforcement learning and a sub-1ms lightweight neural network, enabling real-time large-scale acrobatics, including the first autonomous inverted flight through moving gates—surpassing traditional methods limited by slow pre-planning.          </p>
         </td>
         </tr>
 
@@ -116,14 +115,7 @@
           <a class="skyblue-link" href="https://arxiv.org/abs/2505.15010">Paper</a> / 
   <a class="skyblue-link" href="https://www.bilibili.com/video/BV14eRpYnE8K/?spm_id_from=333.337.search-card.all.click">Video</a>
 <p style="text-align:justify;">
-            This work introduces a depth-image based, end-to-end navigation policy.  
-           We leverage a motion primitive library to approximate the multi-modal distribution of optimal local trajectories. 
-          To guarantee dynamic feasibility and stable tracking at high speeds, 
-          our network outputs safety constraints rather than trajectories directly,
-           which are then used by an efficient spatio-temporal optimizer.
-             While seemingly hierarchical, this process is made differentiable using optimality conditions and 
-             the implicit function theorem, enabling end-to-end training directly on the final trajectory loss and 
-             preserving optimality.
+            This work proposes a shape-adaptive planner and enhanced control for deformable quadrotors, enabling autonomous navigation in complex environments. By integrating deformation dynamics and kinodynamic A* search, it improves maneuverability, reduces tracking error by 37.3%, and supports real-world multimodal tasks.
           </p>
         </td>
       </tr>
@@ -145,10 +137,7 @@
         <a class="skyblue-link" href="https://arxiv.org/abs/2503.00785">Paper</a> / 
         <a class="skyblue-link" href="https://zju-jxlin.github.io/float-drone.github.io/">Video</a>
         <p style="text-align:justify;">
-          This work addresses two major challenges: the inefficiency of initial value search in complex environments and numerical instability caused by singularities in flat spaces.
-          We propose a deep neural network that infers initial paths directly from environmental data, effectively decoupling computational complexity from environmental intricacy and ensuring temporal stability.
-          To address singularities in flat spaces for nonholonomic robots, we introduce a pseudo-arclength mapping and a lightweight bilevel spatiotemporal trajectory representation, which fundamentally resolves the singularity problem and enables efficient, stable convergence even in complex tasks involving mode switching.
-        </p>
+          This work introduces FLOAT Drone, a compact fully-actuated UAV with coaxial rotors and integrated control surfaces, mitigating airflow disturbances and dynamic coupling in close-proximity tasks. It supports dual-mode control and demonstrates reliable performance through extensive real-world experiments.        </p>
       </td>
     </tr>
 
@@ -169,8 +158,7 @@
       <em>Nature Communications</em>, 2024, Under Review. /
       <a class="skyblue-link">Paper / Video (Coming soon)</a>
       <p style="text-align:justify;">
-        Leveraging the differential flatness property of car-like robots, this work transforms full-state trajectory optimization into the flat output space, enabling efficient spatiotemporal planning under nonholonomic constraints. A convex approximation of the feasible space is employed to construct lightweight analytical geometric constraints for static obstacle avoidance. Additionally, the Minkowski difference is used to derive a signed lower bound on convex hull distances, which forms the basis for dynamic obstacle avoidance constraints.
-      </p>
+        Inspired by birds and human hands, we develop a compact aerial robot that integrates flight and grasping. Featuring agile manipulation, adaptive control, and autonomous planning, it performs complex tasks like perching, door-opening, and object transport—even enabling human-robot collaboration in real-world environments.      </p>
     </td>
   </tr>
 
@@ -192,10 +180,7 @@
       <a class="skyblue-link" href="https://ieeexplore.ieee.org/document/10044964">Paper</a> / 
       <a class="skyblue-link" href="https://www.bilibili.com/video/BV1gY4y1K723/?spm_id_from=333.1387.upload.video_card.click">Video</a>
       <p style="text-align:justify;">
-        To enhance quadrotor performance in cluttered environments, this work introduces a trajectory optimization method in SE(3) space that fully exploits the vehicle's agility, 
-        enabling high-speed drone racing through complex scenarios. 
-       This technology was applied to the   <a href="https://www.robomaster.com/en-US/robo/icra">DJI Artificial Intelligence Challenge</a>  (2022) and won the championship!
-      </p>
+        This work presents Ring-Rotor, a retractable ring-shaped quadrotor with one-servo morphing, reducing size by 31.4% for narrow-space flight. Its novel structure enables whole-body grasping without extra manipulators, guided by NMPC for adaptive, versatile aerial transport in real-world tests.      </p>
     </td>
   </tr>
 
@@ -217,7 +202,7 @@
       <a class="skyblue-link" href="https://ieeexplore.ieee.org/document/10342188">Paper</a> / 
       <a class="skyblue-link" href="https://www.bilibili.com/video/BV1Dj411M7Uh/?spm_id_from=333.1387.upload.video_card.click">Video</a>
       <p style="text-align:justify;">
-     By predicting the target's trajectory and formulating a corresponding tracking planning problem, we successfully deployed the solution on a fully autonomous UAV system. This achievement was featured by the prominent media outlet IEEE Spectrum.
+     This work develops a unified model-based planning and control framework for terrestrial-aerial bimodal vehicles. Using differential flatness and NMPC, it enables efficient trajectory planning and smooth mode transitions, achieving robust autonomous navigation in unknown environments, validated through experiments and benchmarks.
       </p>
     </td>
   </tr>
@@ -240,7 +225,7 @@
       <a class="skyblue-link" href="https://ieeexplore.ieee.org/document/10341703">Paper</a> / 
       <a class="skyblue-link" href="https://www.bilibili.com/video/BV1Dj411M7Uh/?spm_id_from=333.1387.upload.video_card.click">Video</a>
       <p style="text-align:justify;">
-     We developed a tailored trajectory planning model for morphable UAVs that fully exploits their structural adaptability, enabling autonomous shape transformation in response to environmental conditions and significantly improving navigation efficiency.
+     This work presents the Roller-Quadrotor, a hybrid drone combining aerial agility with ground endurance. Featuring a rotor-assisted unicycle design, it enables energy-efficient rolling, seamless mode transitions, and gap traversal, extending terrestrial range and operating time significantly over flight alone.
       </p>
     </td>
   </tr>
@@ -264,7 +249,7 @@
       <a class="skyblue-link" href="https://ieeexplore.ieee.org/document/9691888">Paper</a> / 
       <a class="skyblue-link" href="https://www.bilibili.com/video/BV1k34y1Q71v/?spm_id_from=333.1387.upload.video_card.click">Video</a>
       <p style="text-align:justify;">
-     This work investigates trajectory generation for systems with deformable characteristics arising from passive joints. Leveraging the augmented Lagrangian method and signed distance fields, we developed an efficient motion planner for tractor-trailer robots.
+     This work proposes an autonomous navigation framework for terrestrial-aerial bimodal vehicles, featuring hierarchical planning and energy-adaptive control. Validated in real-world tests, the system enables safe, efficient traversal in unknown environments, achieving 7× energy savings in ground mode and offering open-source resources.
       </p>
     </td>
   </tr>
