@@ -17,6 +17,7 @@
 .news-list time{font-weight:500;white-space:nowrap;font-variant-numeric:tabular-nums}
 .news-list .news-pinned{padding:10px 12px;margin-bottom:14px;border-left:2px solid var(--accent);border-radius:0 4px 4px 0;background:var(--soft)}
 .news-pin{color:var(--accent);font-size:12px;font-weight:700;white-space:nowrap;margin-right:6px}
+.news-pinned a{font-weight:700}.news-summary{display:block;margin-top:3px;font-size:13px;line-height:1.6;color:var(--muted)}
 .news-highlight a{font-weight:500}.news-celebration{white-space:nowrap}
 .earlier-news{margin-top:10px;font-size:13px}
 .earlier-news>summary{color:var(--accent);cursor:pointer;width:fit-content}

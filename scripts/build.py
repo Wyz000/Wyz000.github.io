@@ -118,6 +118,8 @@ def news_items(items):
             text = text.replace(E(phrase), f'<strong>{E(phrase)}</strong>', 1)
         for link in item.get('links', []):
             text = text.replace(E(link['label']), f'<a href="{E(link["url"])}">{E(link["label"])}</a>', 1)
+        if item.get('summary'):
+            text += f'<span class="news-summary">{E(item["summary"])}</span>'
         if item.get('highlight'):
             text += ' <span class="news-celebration" aria-hidden="true">🎉🎉</span>'
         if item.get('pinned'):

@@ -1,13 +1,14 @@
 [
   {
     "pinned": true,
-    "text": "GPT-6 Astra for embodied navigation — experiments and demonstrations.",
+    "text": "How far can GPT-6 Astra go in navigation and collaboration?",
     "links": [
       {
-        "label": "GPT-6 Astra for embodied navigation",
+        "label": "How far can GPT-6 Astra go in navigation and collaboration?",
         "url": "https://wyz000.github.io/blog/gpt6-astra-navigation/"
       }
-    ]
+    ],
+    "summary": "Probing its limits in urban navigation, autonomous exploration, and multi-robot teamwork."
   },
   {
     "date": "2026-11",
