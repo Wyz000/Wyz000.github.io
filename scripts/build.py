@@ -124,7 +124,8 @@ def about():
         'hiarm-2026', 'vln-ar-2026', 'diffwam-2026',
         'dynamic-grasp-2026', 'navdreamer-2026', 'pathpainter-2026',
         'd-vlc-2026', 'shape-adaptive-2025', 'ring-rotor-2023',
-        'force-grasp-2026', 'navgen-2026', 'flymirage-2026', 'navfom-2026'
+        'force-grasp-2026', 'navgen-2026', 'flymirage-2026', 'navfom-2026',
+        'sensorimotor-2026'
     ]
     by_id = {paper['id']:paper for paper in PAPERS}
     cards = ''.join(paper_card(by_id[key],compact=True) for key in selected if key in by_id)

@@ -381,7 +381,7 @@
     "note": "ICRA 2026 confirmed by user CV and coauthor homepage; use full PDF/HTML author list, which includes Jialiang Hou missing from arXiv abstract metadata.",
     "selected": false,
     "category": "robotics",
-    "image": "assets/images/force-grasp.webp",
+    "image": "assets/images/force-grasp-wide.webp",
     "featured": false,
     "label": "Force-aware\nGrasping",
     "co_first_authors": [
@@ -398,8 +398,8 @@
       "https://arxiv.org/pdf/2602.08599"
     ],
     "image_width": 640,
-    "image_height": 606,
-    "image_alt": "Force-aware aerial grasping of toy blocks with the tactile sensor inset."
+    "image_height": 402,
+    "image_alt": "Force-aware aerial grasping of a glass cup, toy blocks, stress ball, wooden puzzle, egg, and balloon."
   },
   {
     "id": "navfom-2026",

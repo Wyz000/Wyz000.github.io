@@ -63,11 +63,11 @@ Processing: Selected the complete first figure group (panels a and b) and downsc
 
 A Precise Real-Time Force-Aware Grasping System for Robust Aerial Manipulation
 Authors: Kenghou Hoi, Yuze Wu, Annan Ding, Junjie Wang, Anke Zhao, Jialiang Hou, Chengqian Zhang, Fei Gao
-Thumbnail: assets/images/force-grasp.webp
-Figure: Figure 1(a)
+Thumbnail: assets/images/force-grasp-wide.webp
+Figure: Figure 8 (all six original panels)
 Paper / source page: https://arxiv.org/html/2602.08599v1
-Image source: https://arxiv.org/html/2602.08599v1/intro.png
-Processing: Selected original figure panel and downscaled proportionally; no scientific content redrawn.
+Image source: https://arxiv.org/html/2602.08599v1/grasp.png
+Processing: Complete original Figure 8, proportionally downscaled to 640 pixels wide; no panels cropped and no scientific content redrawn.
 
 Embodied Navigation Foundation Model
 Authors: Jiazhao Zhang, Anqi Li, Yunpeng Qi, Minghan Li, Jiahang Liu, Shaoan Wang, Haoran Liu, Gengze Zhou, Yuze Wu, Xingxing Li, Yuxin Fan, Wenjun Li, Zhibo Chen, Fei Gao, Qi Wu, Zhizheng Zhang, He Wang

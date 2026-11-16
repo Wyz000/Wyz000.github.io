@@ -386,5 +386,25 @@
     "credit": "Yuze Wu et al., Nature Communications (2026), Fig. 1. © The Author(s) 2026.",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "force-grasp-wide": {
+    "id": "force-grasp-2026",
+    "thumbnail": "assets/images/force-grasp-wide.webp",
+    "width": 640,
+    "height": 402,
+    "bytes": 62596,
+    "figure": "Figure 8 (all six original panels)",
+    "source": "Paper figure",
+    "source_url": "https://arxiv.org/html/2602.08599v1/grasp.png",
+    "source_page": "https://arxiv.org/html/2602.08599v1",
+    "processing": "Complete original Figure 8, proportionally downscaled to 640 pixels wide; no panels cropped and no scientific content redrawn.",
+    "crop_xyxy": [
+      0,
+      0,
+      1654,
+      1038
+    ],
+    "original_width": 1654,
+    "original_height": 1038
   }
 }
