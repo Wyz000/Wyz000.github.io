@@ -1,0 +1,917 @@
+[
+  {
+    "id": "dynamic-grasp-2026",
+    "title": "A Fully Onboard Integrated Aerial Grasping System for Moving Targets in Cluttered Environments",
+    "authors": [
+      "Junjie Wang",
+      "Kenghou Hoi",
+      "Yuze Wu",
+      "Tianyu Zhao",
+      "Jialiang Hou",
+      "Fei Gao"
+    ],
+    "year": 2026,
+    "venue": "IEEE/ASME Transactions on Mechatronics",
+    "status": "accepted",
+    "summary": "Fully onboard perception and planning for aerial grasping of moving targets in cluttered environments.",
+    "category": "robotics",
+    "image": "",
+    "label": "Dynamic\nAerial Grasping",
+    "sources": [
+      "https://jameshoi.github.io/"
+    ],
+    "note": "Acceptance confirmed directly by Yuze Wu. Final title, full author order and contribution roles verified from the author-supplied accepted manuscript on 2026-11-16; final public paper link forthcoming.",
+    "featured": false,
+    "co_first_authors": [
+      "Junjie Wang",
+      "Kenghou Hoi",
+      "Yuze Wu"
+    ],
+    "corresponding_authors": [
+      "Jialiang Hou",
+      "Fei Gao"
+    ],
+    "author_role_sources": [
+      "Author-supplied accepted manuscript, title page; verified 2026-11-16"
+    ]
+  },
+  {
+    "id": "diffwam-2026",
+    "title": "DiffWAM: A Fast and Efficient Navigation World Action Model",
+    "authors": [
+      "Mo Zhu",
+      "Yuze Wu",
+      "Xijie Huang",
+      "Xiao Cui",
+      "Fei Gao",
+      "Xin Zhou"
+    ],
+    "year": 2026,
+    "venue": "arXiv",
+    "status": "preprint",
+    "arxiv": "2609.39763",
+    "paper": "https://arxiv.org/abs/2609.39763",
+    "pdf": "https://arxiv.org/pdf/2609.39763",
+    "project": "https://zzmmzzm.github.io/diffwam.github.io/",
+    "role_evidence": "https://arxiv.org/html/2609.39763v1",
+    "summary": "Grounds predictive representations from video foundation models directly into continuous 3D navigation trajectories.",
+    "sources": [
+      "https://arxiv.org/abs/2609.39763",
+      "https://arxiv.org/html/2609.39763v1"
+    ],
+    "selected": true,
+    "category": "models",
+    "image": "assets/images/diffwam.webp",
+    "featured": true,
+    "label": "DIFFWAM",
+    "co_first_authors": [
+      "Mo Zhu",
+      "Yuze Wu",
+      "Xijie Huang"
+    ],
+    "corresponding_authors": [
+      "Yuze Wu",
+      "Xin Zhou"
+    ],
+    "author_role_sources": [
+      "https://arxiv.org/html/2609.39763v1"
+    ]
+  },
+  {
+    "id": "navgen-2026",
+    "title": "NavGen: Visual Generative Models as a Scalable Data Engine for Embodied 3D Navigation",
+    "authors": [
+      "Xijie Huang",
+      "Yongyang Wan",
+      "Chengbin Dong",
+      "Zimo Ding",
+      "Mo Zhu",
+      "Yijin Wang",
+      "Zhiyang Liu",
+      "Fei Gao",
+      "Yuze Wu",
+      "Xin Zhou"
+    ],
+    "year": 2026,
+    "venue": "arXiv",
+    "status": "preprint",
+    "arxiv": "2609.30770",
+    "paper": "https://arxiv.org/abs/2609.30770",
+    "pdf": "https://arxiv.org/pdf/2609.30770",
+    "summary": "Uses visual generative models to scale diverse aerial navigation training data.",
+    "sources": [
+      "https://arxiv.org/abs/2609.30770"
+    ],
+    "selected": false,
+    "category": "models",
+    "image": "assets/images/navgen.webp",
+    "featured": false,
+    "label": "NAVGEN",
+    "project": "https://xinjiu612.github.io/NavGen/",
+    "co_first_authors": [],
+    "corresponding_authors": [
+      "Yuze Wu"
+    ],
+    "author_role_sources": [
+      "https://arxiv.org/pdf/2609.30770"
+    ]
+  },
+  {
+    "id": "flymirage-2026",
+    "title": "FlyMirage: A Fully Automated Generation Pipeline for Diverse and Scalable UAV Flight Data via Generative World Model",
+    "authors": [
+      "Jinhan Li",
+      "Xijie Huang",
+      "Weiqi Gai",
+      "Zhaoqi Wang",
+      "Qiyi He",
+      "Yijin Wang",
+      "Mo Zhu",
+      "Zhiyang Liu",
+      "Fei Gao",
+      "Xin Zhou",
+      "Yuze Wu",
+      "Ziming Ding"
+    ],
+    "year": 2026,
+    "venue": "arXiv",
+    "status": "preprint",
+    "arxiv": "2605.19600",
+    "paper": "https://arxiv.org/abs/2605.19600",
+    "pdf": "https://arxiv.org/pdf/2605.19600",
+    "project": "https://lij1500.github.io/flymirage_website/",
+    "role_evidence": "https://arxiv.org/pdf/2605.19600",
+    "summary": "Combines generative world models, scene annotation and motion planning to create aerial navigation data.",
+    "sources": [
+      "https://arxiv.org/abs/2605.19600",
+      "https://arxiv.org/pdf/2605.19600"
+    ],
+    "note": "Use current arXiv v2 author list; coauthor homepage retains a shorter old list.",
+    "selected": false,
+    "category": "models",
+    "image": "",
+    "featured": false,
+    "label": "FlyMirage",
+    "co_first_authors": [
+      "Jinhan Li",
+      "Xijie Huang"
+    ],
+    "corresponding_authors": [
+      "Yuze Wu"
+    ],
+    "author_role_sources": [
+      "https://arxiv.org/pdf/2605.19600"
+    ]
+  },
+  {
+    "id": "pathpainter-2026",
+    "title": "PathPainter: Transferring the Generalization Ability of Image Generation Models to Embodied Navigation",
+    "authors": [
+      "Yijin Wang",
+      "Yuru Tian",
+      "Xijie Huang",
+      "Weiqi Gai",
+      "Mo Zhu",
+      "Xin Zhou",
+      "Yuze Wu",
+      "Fei Gao"
+    ],
+    "year": 2026,
+    "venue": "CoRL",
+    "status": "accepted",
+    "arxiv": "2605.07496",
+    "paper": "https://arxiv.org/abs/2605.07496",
+    "pdf": "https://arxiv.org/pdf/2605.07496",
+    "summary": "Transfers image generation priors to navigation using bird's-eye-view maps and cross-view localization.",
+    "sources": [
+      "https://arxiv.org/abs/2605.07496",
+      "https://xinjiu612.github.io/"
+    ],
+    "note": "CoRL acceptance confirmed by coauthor's September 2026 news; not independently read in proceedings.",
+    "selected": false,
+    "category": "models",
+    "image": "",
+    "featured": false,
+    "label": "PathPainter",
+    "co_first_authors": [
+      "Yijin Wang",
+      "Yuru Tian",
+      "Xijie Huang"
+    ],
+    "corresponding_authors": [
+      "Yuze Wu",
+      "Fei Gao"
+    ],
+    "author_role_sources": [
+      "https://xinjiu612.github.io/",
+      "https://arxiv.org/html/2605.07496v3"
+    ]
+  },
+  {
+    "id": "navdreamer-2026",
+    "title": "NavDreamer: Video Models as Zero-Shot 3D Navigators",
+    "authors": [
+      "Xijie Huang",
+      "Weiqi Gai",
+      "Tianyue Wu",
+      "Congyu Wang",
+      "Zhiyang Liu",
+      "Xin Zhou",
+      "Yuze Wu",
+      "Fei Gao"
+    ],
+    "year": 2026,
+    "venue": "IEEE Robotics and Automation Letters",
+    "status": "accepted",
+    "arxiv": "2602.09765",
+    "paper": "https://arxiv.org/abs/2602.09765",
+    "pdf": "https://arxiv.org/pdf/2602.09765",
+    "project": "https://xinjiu612.github.io/NavDreamer/",
+    "role_evidence": "https://xinjiu612.github.io/NavDreamer/",
+    "summary": "Uses video generation models as a zero-shot interface between language instructions and 3D navigation trajectories.",
+    "sources": [
+      "https://arxiv.org/abs/2602.09765",
+      "https://xinjiu612.github.io/NavDreamer/",
+      "https://xinjiu612.github.io/"
+    ],
+    "note": "RA-L confirmed by user CV and coauthor news. Publisher DOI candidate 10.1109/LRA.2026.3713727 could not be fetched. Aggregators include Qiaoyu Zheng, absent from current arXiv/project; use arXiv/project authors until publisher verified.",
+    "selected": true,
+    "category": "models",
+    "image": "assets/images/navdreamer.webp",
+    "featured": true,
+    "label": "NavDreamer",
+    "co_first_authors": [
+      "Xijie Huang",
+      "Weiqi Gai"
+    ],
+    "corresponding_authors": [
+      "Yuze Wu",
+      "Fei Gao"
+    ],
+    "author_role_sources": [
+      "https://arxiv.org/pdf/2602.09765v2"
+    ]
+  },
+  {
+    "id": "sensorimotor-2026",
+    "title": "Precise aggressive aerial maneuvers with sensorimotor policies",
+    "authors": [
+      "Tianyue Wu",
+      "Guangtong Xu",
+      "Zihan Wang",
+      "Junxiao Lin",
+      "Tianyang Chen",
+      "Yuze Wu",
+      "Zhichao Han",
+      "Zhiyang Liu",
+      "Fei Gao"
+    ],
+    "year": 2026,
+    "venue": "Science Robotics",
+    "status": "published",
+    "doi": "10.1126/scirobotics.aeb0180",
+    "paper": "https://doi.org/10.1126/scirobotics.aeb0180",
+    "arxiv": "2604.05828",
+    "pdf": "https://arxiv.org/pdf/2604.05828",
+    "summary": "Learns sensorimotor policies that map onboard vision and proprioception to precise aggressive flight through narrow gaps.",
+    "sources": [
+      "https://doi.org/10.1126/scirobotics.aeb0180",
+      "https://arxiv.org/abs/2604.05828"
+    ],
+    "selected": true,
+    "category": "robotics",
+    "image": "assets/images/sensorimotor.webp",
+    "featured": false,
+    "label": "Sensorimotor\nPolicies",
+    "co_first_authors": [
+      "Tianyue Wu",
+      "Guangtong Xu"
+    ],
+    "corresponding_authors": [
+      "Fei Gao"
+    ],
+    "author_role_sources": [
+      "https://arxiv.org/abs/2604.05828",
+      "https://arxiv.org/html/2604.05828"
+    ]
+  },
+  {
+    "id": "hiarm-2026",
+    "title": "Hand-like autonomous flying robot for airborne grasping and interaction",
+    "authors": [
+      "Yuze Wu",
+      "Fan Yang",
+      "Rui Jin",
+      "Yuhang Zhong",
+      "Junjie Wang",
+      "Xuankang Wu",
+      "Fei Gao"
+    ],
+    "year": 2026,
+    "venue": "Nature Communications",
+    "status": "published",
+    "date": "2026-01-30",
+    "volume": "17",
+    "article_number": "2200",
+    "doi": "10.1038/s41467-026-68967-3",
+    "paper": "https://www.nature.com/articles/s41467-026-68967-3",
+    "pdf": "https://www.nature.com/articles/s41467-026-68967-3.pdf",
+    "code": "https://github.com/Wyz000/HIARM",
+    "role_evidence": "https://www.nature.com/articles/s41467-026-68967-3",
+    "summary": "Integrates flight and grasping in a hand-inspired robot for perching, transport and airborne interaction.",
+    "sources": [
+      "https://www.nature.com/articles/s41467-026-68967-3"
+    ],
+    "old_title": "Hand-Inspired Autonomous Flying Robot for Airborne Manipulation",
+    "old_image": "gif/HI-ARM_Movie1 Summary Presentation.gif",
+    "selected": true,
+    "category": "robotics",
+    "image": "assets/images/hi-arm.webp",
+    "featured": true,
+    "label": "HIARM",
+    "co_first_authors": [
+      "Yuze Wu",
+      "Fan Yang"
+    ],
+    "corresponding_authors": [
+      "Fei Gao"
+    ],
+    "author_role_sources": [
+      "https://www.nature.com/articles/s41467-026-68967-3"
+    ]
+  },
+  {
+    "id": "force-grasp-2026",
+    "title": "A Precise Real-Time Force-Aware Grasping System for Robust Aerial Manipulation",
+    "authors": [
+      "Kenghou Hoi",
+      "Yuze Wu",
+      "Annan Ding",
+      "Junjie Wang",
+      "Anke Zhao",
+      "Jialiang Hou",
+      "Chengqian Zhang",
+      "Fei Gao"
+    ],
+    "year": 2026,
+    "venue": "ICRA",
+    "status": "published",
+    "arxiv": "2602.08599",
+    "paper": "https://arxiv.org/abs/2602.08599",
+    "pdf": "https://arxiv.org/pdf/2602.08599",
+    "video": "https://www.youtube.com/watch?v=mbcZkrJEf1I",
+    "role_evidence": "https://jameshoi.github.io/",
+    "summary": "Introduces lightweight magnetic tactile sensing and force-aware control for delicate aerial grasping.",
+    "sources": [
+      "https://arxiv.org/html/2602.08599v1",
+      "https://jameshoi.github.io/"
+    ],
+    "note": "ICRA 2026 confirmed by user CV and coauthor homepage; use full PDF/HTML author list, which includes Jialiang Hou missing from arXiv abstract metadata.",
+    "selected": false,
+    "category": "robotics",
+    "image": "",
+    "featured": false,
+    "label": "Force-aware\nGrasping",
+    "co_first_authors": [
+      "Kenghou Hoi",
+      "Yuze Wu",
+      "Annan Ding"
+    ],
+    "corresponding_authors": [
+      "Jialiang Hou",
+      "Chengqian Zhang",
+      "Fei Gao"
+    ],
+    "author_role_sources": [
+      "https://arxiv.org/pdf/2602.08599"
+    ]
+  },
+  {
+    "id": "navfom-2026",
+    "title": "Embodied Navigation Foundation Model",
+    "authors": [
+      "Jiazhao Zhang",
+      "Anqi Li",
+      "Yunpeng Qi",
+      "Minghan Li",
+      "Jiahang Liu",
+      "Shaoan Wang",
+      "Haoran Liu",
+      "Gengze Zhou",
+      "Yuze Wu",
+      "Xingxing Li",
+      "Yuxin Fan",
+      "Wenjun Li",
+      "Zhibo Chen",
+      "Fei Gao",
+      "Qi Wu",
+      "Zhizheng Zhang",
+      "He Wang"
+    ],
+    "year": 2026,
+    "preprint_year": 2025,
+    "venue": "ICLR",
+    "status": "published",
+    "arxiv": "2509.12129",
+    "paper": "https://openreview.net/forum?id=kkBOIsrCXh",
+    "pdf": "https://arxiv.org/pdf/2509.12129",
+    "project": "https://pku-epic.github.io/NavFoM-Web/",
+    "summary": "A cross-embodiment, cross-task navigation model spanning multiple robot platforms.",
+    "sources": [
+      "https://pku-epic.github.io/NavFoM-Web/",
+      "https://openreview.net/pdf/72a12d9f10a26153c37f27260d61330969b1a4e9.pdf"
+    ],
+    "note": "Search-indexed OpenReview final PDF states Published as a conference paper at ICLR 2026; direct OpenReview access shows challenge. Project BibTeX still uses 2025 preprint.",
+    "selected": true,
+    "category": "models",
+    "image": "assets/images/navfom.webp",
+    "featured": true,
+    "label": "NAVFOM",
+    "co_first_authors": [
+      "Jiazhao Zhang",
+      "Anqi Li",
+      "Yunpeng Qi",
+      "Minghan Li"
+    ],
+    "corresponding_authors": [
+      "Zhizheng Zhang",
+      "He Wang"
+    ],
+    "author_role_sources": [
+      "https://arxiv.org/html/2509.12129v2"
+    ]
+  },
+  {
+    "id": "vln-ar-2026",
+    "title": "A Hierarchical Onboard Vision-Language-Navigation Framework for Aerial Robots in Complex Environments",
+    "authors": [
+      "Yuze Wu",
+      "Mo Zhu",
+      "Xingxing Li",
+      "Yuheng Du",
+      "Zhaoqi Wang",
+      "Yuxin Fan",
+      "Wenjun Li",
+      "Kenghou Hoi",
+      "Zhichao Han",
+      "Xin Zhou",
+      "Fei Gao"
+    ],
+    "year": 2026,
+    "venue": "IEEE Transactions on Robotics",
+    "status": "accepted",
+    "summary": "A hierarchical onboard vision-language navigation framework for aerial robots, extending VLA-AN.",
+    "sources": [
+      "https://arxiv.org/abs/2512.15258"
+    ],
+    "note": "Acceptance and final manuscript submission confirmed directly by Yuze Wu. Final title, full author order and contribution roles verified from the author-supplied final manuscript on 2026-11-16. The linked earlier version is VLA-AN, not the accepted journal version.",
+    "selected": true,
+    "category": "models",
+    "image": "assets/images/vla-an.webp",
+    "featured": true,
+    "label": "VLN-AR",
+    "related_preprint": "https://arxiv.org/abs/2512.15258",
+    "co_first_authors": [
+      "Yuze Wu",
+      "Mo Zhu",
+      "Xingxing Li"
+    ],
+    "corresponding_authors": [
+      "Xin Zhou",
+      "Fei Gao"
+    ],
+    "author_role_sources": [
+      "Author-supplied accepted manuscript, title page; verified 2026-11-16"
+    ]
+  },
+  {
+    "id": "reactive-aerobatic-2025",
+    "title": "Reactive Aerobatic Flight via Reinforcement Learning",
+    "authors": [
+      "Zhichao Han",
+      "Xijie Huang",
+      "Zhuxiu Xu",
+      "Jiarui Zhang",
+      "Yuze Wu",
+      "Mingyang Wang",
+      "Tianyue Wu",
+      "Fei Gao"
+    ],
+    "year": 2025,
+    "venue": "IEEE Robotics and Automation Letters",
+    "status": "published",
+    "volume": "10",
+    "number": "10",
+    "pages": "11014–11021",
+    "doi": "10.1109/LRA.2025.3606383",
+    "paper": "https://ieeexplore.ieee.org/document/11151206",
+    "arxiv": "2505.24396",
+    "pdf": "https://arxiv.org/pdf/2505.24396",
+    "sources": [
+      "https://ieeexplore.ieee.org/abstract/document/11151206/media",
+      "https://arxiv.org/abs/2505.24396"
+    ],
+    "summary": "Reinforcement learning enables reactive aerobatic maneuvers, including inverted flight through moving gates.",
+    "old_image": "gif/RL_AF_video.gif",
+    "note": "Update old homepage/CV under-review status.",
+    "selected": false,
+    "category": "robotics",
+    "image": "assets/images/reactive-flight.webp",
+    "featured": false,
+    "label": "REACTIVE",
+    "co_first_authors": [],
+    "corresponding_authors": [
+      "Fei Gao"
+    ],
+    "author_role_sources": [
+      "https://arxiv.org/pdf/2505.24396",
+      "https://arxiv.org/html/2505.24396"
+    ]
+  },
+  {
+    "id": "shape-adaptive-2025",
+    "title": "Shape-Adaptive Planning and Control for a Deformable Quadrotor",
+    "authors": [
+      "Yuze Wu",
+      "Zhichao Han",
+      "Xuankang Wu",
+      "Yuan Zhou",
+      "Junjie Wang",
+      "Zheng Fang",
+      "Fei Gao"
+    ],
+    "year": 2025,
+    "venue": "IROS",
+    "status": "published",
+    "doi": "10.1109/IROS60139.2025.11245898",
+    "paper": "https://arxiv.org/abs/2505.15010",
+    "pdf": "https://arxiv.org/pdf/2505.15010",
+    "video": "https://www.bilibili.com/video/BV14eRpYnE8K/",
+    "sources": [
+      "https://arxiv.org/abs/2505.15010",
+      "https://dblp.uni-trier.de/pid/380/6374.html"
+    ],
+    "summary": "Plans deformation-aware trajectories and compensates disturbances for shape-changing quadrotors.",
+    "old_image": "gif/Iros2025 Rr Video-mid.gif",
+    "note": "CV says IROS 2024 but arXiv, old homepage and proceedings metadata support 2025. Publisher direct page blocked; DOI identified through bibliographic metadata.",
+    "selected": false,
+    "category": "robotics",
+    "image": "",
+    "featured": false,
+    "label": "Shape-Adaptive\nFlight",
+    "co_first_authors": [
+      "Yuze Wu",
+      "Zhichao Han",
+      "Xuankang Wu"
+    ],
+    "corresponding_authors": [
+      "Fei Gao"
+    ],
+    "author_role_sources": [
+      "https://arxiv.org/pdf/2505.15010"
+    ]
+  },
+  {
+    "id": "float-2025",
+    "title": "FLOAT Drone: A Fully-actuated Coaxial Aerial Robot for Close-Proximity Operations",
+    "authors": [
+      "Junxiao Lin",
+      "Shuhang Ji",
+      "Yuze Wu",
+      "Tianyue Wu",
+      "Zhichao Han",
+      "Fei Gao"
+    ],
+    "year": 2025,
+    "venue": "IROS",
+    "status": "published",
+    "doi": "10.1109/IROS60139.2025.11245967",
+    "paper": "https://arxiv.org/abs/2503.00785",
+    "pdf": "https://arxiv.org/pdf/2503.00785",
+    "project": "https://zju-jxlin.github.io/float-drone.github.io/",
+    "sources": [
+      "https://arxiv.org/abs/2503.00785",
+      "https://www.nature.com/nature-index/article/10.1109/iros60139.2025.11245967"
+    ],
+    "summary": "A compact fully-actuated coaxial aerial robot for close-proximity physical operations.",
+    "old_image": "gif/float-drone-10mb.gif",
+    "note": "CV also confirms published; publisher direct page blocked.",
+    "selected": false,
+    "category": "robotics",
+    "image": "assets/images/float-drone.webp",
+    "featured": false,
+    "label": "FLOAT",
+    "co_first_authors": [],
+    "corresponding_authors": [
+      "Fei Gao"
+    ],
+    "author_role_sources": [
+      "https://arxiv.org/pdf/2503.00785",
+      "https://arxiv.org/html/2503.00785"
+    ]
+  },
+  {
+    "id": "ring-rotor-2023",
+    "title": "Ring-Rotor: A Novel Retractable Ring-Shaped Quadrotor With Aerial Grasping and Transportation Capability",
+    "authors": [
+      "Yuze Wu",
+      "Fan Yang",
+      "Ze Wang",
+      "Kaiwei Wang",
+      "Yanjun Cao",
+      "Chao Xu",
+      "Fei Gao"
+    ],
+    "year": 2023,
+    "venue": "IEEE Robotics and Automation Letters",
+    "status": "published",
+    "paper": "https://ieeexplore.ieee.org/document/10044964",
+    "video": "https://www.bilibili.com/video/BV1gY4y1K723/",
+    "sources": [
+      "https://github.com/Wyz000/Wyz000.github.io/blob/main/index.html"
+    ],
+    "summary": "A retractable ring-shaped quadrotor for whole-body aerial grasping and transportation.",
+    "old_image": "gif/RingRotor_0905.gif",
+    "selected": false,
+    "category": "robotics",
+    "image": "",
+    "featured": false,
+    "label": "Ring-Rotor",
+    "co_first_authors": [],
+    "corresponding_authors": [
+      "Fei Gao"
+    ],
+    "author_role_sources": [
+      "https://arxiv.org/pdf/2304.03514"
+    ]
+  },
+  {
+    "id": "model-based-tabv-2023",
+    "title": "Model-Based Planning and Control for Terrestrial-Aerial Bimodal Vehicles with Passive Wheels",
+    "authors": [
+      "Ruibin Zhang",
+      "Junxiao Lin",
+      "Yuze Wu",
+      "Yuman Gao",
+      "Chi Wang",
+      "Chao Xu",
+      "Yanjun Cao",
+      "Fei Gao"
+    ],
+    "year": 2023,
+    "venue": "IROS",
+    "status": "published",
+    "paper": "https://ieeexplore.ieee.org/document/10342188",
+    "video": "https://www.bilibili.com/video/BV1Dj411M7Uh/",
+    "sources": [
+      "https://github.com/Wyz000/Wyz000.github.io/blob/main/index.html"
+    ],
+    "summary": "Unified planning and control for robots that alternate between ground travel and flight.",
+    "old_image": "gif/Model-Based.gif",
+    "selected": false,
+    "category": "robotics",
+    "image": "assets/images/model-based.webp",
+    "featured": false,
+    "label": "MODEL",
+    "co_first_authors": [],
+    "corresponding_authors": [
+      "Fei Gao"
+    ],
+    "author_role_sources": [
+      "https://arxiv.org/pdf/2403.00322",
+      "https://arxiv.org/html/2403.00322"
+    ]
+  },
+  {
+    "id": "roller-quadrotor-2023",
+    "title": "Roller-Quadrotor: A Novel Hybrid Terrestrial-/Aerial Quadrotor with Unicycle-Driven and Rotor-Assisted Turning",
+    "authors": [
+      "Zhi Zheng",
+      "Jin Wang",
+      "Yuze Wu",
+      "Qifeng Cai",
+      "Huan Yu",
+      "Ruibin Zhang",
+      "Jie Tu",
+      "Jun Meng",
+      "Guodong Lu",
+      "Fei Gao"
+    ],
+    "year": 2023,
+    "venue": "IROS",
+    "status": "published",
+    "paper": "https://ieeexplore.ieee.org/document/10341703",
+    "sources": [
+      "https://github.com/Wyz000/Wyz000.github.io/blob/main/index.html"
+    ],
+    "summary": "A hybrid quadrotor combining efficient terrestrial locomotion and aerial mobility.",
+    "old_image": "gif/Roller-Quadrotor.gif",
+    "selected": false,
+    "category": "robotics",
+    "image": "assets/images/roller-quadrotor.webp",
+    "featured": false,
+    "label": "ROLLER",
+    "co_first_authors": [],
+    "corresponding_authors": [
+      "Jin Wang"
+    ],
+    "author_role_sources": [
+      "https://arxiv.org/pdf/2303.00668"
+    ]
+  },
+  {
+    "id": "adaptive-tabv-2022",
+    "title": "Autonomous and Adaptive Navigation for Terrestrial-Aerial Bimodal Vehicles",
+    "authors": [
+      "Ruibin Zhang",
+      "Yuze Wu",
+      "Lixian Zhang",
+      "Chao Xu",
+      "Fei Gao"
+    ],
+    "year": 2022,
+    "venue": "IEEE Robotics and Automation Letters",
+    "status": "published",
+    "doi": "10.1109/LRA.2022.3145505",
+    "paper": "https://ieeexplore.ieee.org/document/9691888",
+    "video": "https://www.bilibili.com/video/BV1k34y1Q71v/",
+    "sources": [
+      "https://github.com/Wyz000/Wyz000.github.io/blob/main/index.html"
+    ],
+    "summary": "Autonomous navigation with adaptive control for energy-efficient ground and aerial locomotion.",
+    "old_image": "gif/TIE_ An Autonomous.gif",
+    "selected": false,
+    "category": "robotics",
+    "image": "assets/images/adaptive-navigation.webp",
+    "featured": false,
+    "label": "ADAPTIVE",
+    "co_first_authors": [],
+    "corresponding_authors": null,
+    "author_role_sources": [
+      "https://arxiv.org/pdf/2109.04706",
+      "https://arxiv.org/html/2109.04706"
+    ]
+  },
+  {
+    "id": "crossfly-2026",
+    "title": "Benchmarking Interaction-Oriented Aerial Mobility across Heterogeneous Environments",
+    "authors": [
+      "Zhibo Duan",
+      "Hanlin Kong",
+      "Tianran Ma",
+      "Yuze Wu",
+      "Yuxuan Xu",
+      "Kenghou Hoi",
+      "Changheng Xie",
+      "Xin Zhou",
+      "Jianzhe Gao",
+      "Fei Gao",
+      "Wenguan Wang"
+    ],
+    "year": 2026,
+    "venue": "arXiv",
+    "status": "preprint",
+    "arxiv": "2610.18381",
+    "paper": "https://arxiv.org/abs/2610.18381",
+    "pdf": "https://arxiv.org/pdf/2610.18381",
+    "project": "https://bozhistudying233.github.io/CrossFly/",
+    "summary": "Benchmarks long-horizon aerial navigation across indoor and outdoor settings with readiness for downstream interaction.",
+    "sources": [
+      "https://bozhistudying233.github.io/CrossFly/",
+      "https://jameshoi.github.io/"
+    ],
+    "note": "Coauthor reports ICLR 2027 under review; do not label accepted.",
+    "selected": false,
+    "category": "models",
+    "featured": false,
+    "image": "",
+    "label": "CROSSFLY",
+    "co_first_authors": [
+      "Zhibo Duan",
+      "Hanlin Kong"
+    ],
+    "corresponding_authors": [
+      "Wenguan Wang"
+    ],
+    "author_role_sources": [
+      "https://bozhistudying233.github.io/CrossFly/"
+    ]
+  },
+  {
+    "id": "d-vlc-2026",
+    "title": "D-VLC: Decentralized Vision-Language Collaboration for Heterogeneous Embodied Multi-Robot Systems in Unknown Environments",
+    "authors": [
+      "Yuan Zhou",
+      "Ruitong Lin",
+      "Shen Wang",
+      "Weiqi Gai",
+      "Mo Zhu",
+      "Xin Zhou",
+      "Yuze Wu",
+      "Fei Gao"
+    ],
+    "year": 2026,
+    "venue": "arXiv",
+    "status": "preprint",
+    "arxiv": "2607.29009",
+    "paper": "https://arxiv.org/abs/2607.29009",
+    "pdf": "https://arxiv.org/pdf/2607.29009",
+    "summary": "Decentralized vision-language reasoning coordinates heterogeneous robots in unknown environments.",
+    "sources": [
+      "https://arxiv.org/abs/2607.29009"
+    ],
+    "note": "Uses July arXiv submission 2607.29009; a different older record with same title appeared in aggregators, do not conflate author lists.",
+    "selected": false,
+    "category": "models",
+    "featured": false,
+    "image": "",
+    "label": "D",
+    "co_first_authors": [
+      "Yuan Zhou",
+      "Ruitong Lin",
+      "Shen Wang"
+    ],
+    "corresponding_authors": [
+      "Yuze Wu",
+      "Fei Gao"
+    ],
+    "author_role_sources": [
+      "https://arxiv.org/pdf/2607.29009v2"
+    ]
+  },
+  {
+    "id": "uss-nav-2026",
+    "title": "USS-Nav: Unified Spatio-Semantic Scene Graph for Lightweight UAV Zero-Shot Object Navigation",
+    "authors": [
+      "Weiqi Gai",
+      "Yuman Gao",
+      "Yuan Zhou",
+      "Yufan Xie",
+      "Zhiyang Liu",
+      "Yuze Wu",
+      "Xin Zhou",
+      "Fei Gao",
+      "Zhijun Meng"
+    ],
+    "year": 2026,
+    "venue": "arXiv",
+    "status": "preprint",
+    "arxiv": "2602.00708",
+    "paper": "https://arxiv.org/abs/2602.00708",
+    "pdf": "https://arxiv.org/pdf/2602.00708",
+    "summary": "Combines incremental spatial topology and open-vocabulary semantics for lightweight object navigation.",
+    "sources": [
+      "https://arxiv.org/abs/2602.00708"
+    ],
+    "selected": false,
+    "category": "models",
+    "featured": false,
+    "image": "",
+    "label": "USS",
+    "co_first_authors": [],
+    "corresponding_authors": [
+      "Fei Gao",
+      "Zhijun Meng"
+    ],
+    "author_role_sources": [
+      "https://arxiv.org/html/2602.00708v2"
+    ]
+  },
+  {
+    "id": "ground-effect-2025",
+    "title": "Ground-Effect-Aware Modeling and Control for Multicopters",
+    "authors": [
+      "Tiankai Yang",
+      "Kaixin Chai",
+      "Jialin Ji",
+      "Yuze Wu",
+      "Chao Xu",
+      "Fei Gao"
+    ],
+    "year": 2025,
+    "venue": "arXiv",
+    "status": "preprint",
+    "arxiv": "2506.19424",
+    "paper": "https://arxiv.org/abs/2506.19424",
+    "pdf": "https://arxiv.org/pdf/2506.19424",
+    "code": "https://github.com/ZJU-FAST-Lab/Ground-effect-controller",
+    "summary": "Models near-ground aerodynamic effects and compensates their influence on multicopter control.",
+    "sources": [
+      "https://arxiv.org/abs/2506.19424"
+    ],
+    "note": "Some aggregators claim T-MECH publication but author repository says submission under review; keep as arXiv until formal publisher record supplied.",
+    "selected": false,
+    "category": "robotics",
+    "featured": false,
+    "image": "",
+    "label": "GROUND",
+    "co_first_authors": [],
+    "corresponding_authors": [
+      "Fei Gao"
+    ],
+    "author_role_sources": [
+      "https://arxiv.org/pdf/2506.19424",
+      "https://arxiv.org/html/2506.19424"
+    ]
+  }
+]

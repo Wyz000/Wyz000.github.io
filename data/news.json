@@ -1,0 +1,133 @@
+[
+  {
+    "date": "2026-11",
+    "label": "Nov. 2026",
+    "text": "Our papers on onboard aerial VLN and dynamic aerial grasping have been accepted by IEEE T-RO and IEEE/ASME T-Mech, respectively.",
+    "links": [
+      {
+        "label": "onboard aerial VLN",
+        "url": "./publications/#vln-ar-2026"
+      },
+      {
+        "label": "dynamic aerial grasping",
+        "url": "./publications/#dynamic-grasp-2026"
+      }
+    ]
+  },
+  {
+    "date": "2026-10",
+    "label": "Oct. 2026",
+    "text": "Our CrossFly preprint introduces a benchmark for interaction-oriented aerial mobility across indoor and outdoor environments.",
+    "links": [
+      {
+        "label": "CrossFly",
+        "url": "./publications/#crossfly-2026"
+      }
+    ]
+  },
+  {
+    "date": "2026-09",
+    "label": "Sept. 2026",
+    "text": "Our DiffWAM preprint explores fast navigation with world-action models, grounding video predictions directly into 3D motion.",
+    "links": [
+      {
+        "label": "DiffWAM",
+        "url": "./publications/#diffwam-2026"
+      }
+    ]
+  },
+  {
+    "date": "2026-09",
+    "label": "Sept. 2026",
+    "text": "Our NavGen preprint presents a scalable visual-generation data engine for embodied 3D navigation.",
+    "links": [
+      {
+        "label": "NavGen",
+        "url": "./publications/#navgen-2026"
+      }
+    ]
+  },
+  {
+    "date": "2026-09",
+    "label": "Sept. 2026",
+    "text": "PathPainter is accepted to CoRL 2026, transferring image-generation priors to embodied navigation.",
+    "links": [
+      {
+        "label": "PathPainter",
+        "url": "./publications/#pathpainter-2026"
+      }
+    ]
+  },
+  {
+    "date": "2026-07",
+    "label": "Jul. 2026",
+    "text": "NavDreamer is accepted to IEEE RA-L, using video models for zero-shot 3D navigation.",
+    "links": [
+      {
+        "label": "NavDreamer",
+        "url": "./publications/#navdreamer-2026"
+      }
+    ]
+  },
+  {
+    "date": "2026-06",
+    "label": "Jun. 2026",
+    "text": "I graduated from Zhejiang University with a Ph.D. in Control Science and Engineering, advised by Prof. Fei Gao.",
+    "links": []
+  },
+  {
+    "date": "2026-06",
+    "label": "Jun. 2026",
+    "text": "Our work on precise aggressive aerial maneuvers with sensorimotor policies is published in Science Robotics.",
+    "links": [
+      {
+        "label": "precise aggressive aerial maneuvers",
+        "url": "./publications/#sensorimotor-2026"
+      }
+    ]
+  },
+  {
+    "date": "2026-05",
+    "label": "May 2026",
+    "text": "Our FlyMirage preprint presents an automated pipeline for generating diverse UAV navigation data with world models.",
+    "links": [
+      {
+        "label": "FlyMirage",
+        "url": "./publications/#flymirage-2026"
+      }
+    ]
+  },
+  {
+    "date": "2026-01",
+    "label": "Jan. 2026",
+    "text": "HI-ARM, our hand-like flying robot for airborne grasping and interaction, is published in Nature Communications.",
+    "links": [
+      {
+        "label": "HI-ARM",
+        "url": "./publications/#hiarm-2026"
+      }
+    ]
+  },
+  {
+    "date": "2025-09",
+    "label": "Sept. 2025",
+    "text": "Our NavFoM preprint introduces a navigation foundation model spanning robot embodiments and navigation tasks.",
+    "links": [
+      {
+        "label": "NavFoM",
+        "url": "./publications/#navfom-2026"
+      }
+    ]
+  },
+  {
+    "date": "2025-08",
+    "label": "Aug. 2025",
+    "text": "Our reactive aerobatic flight work is accepted to IEEE RA-L.",
+    "links": [
+      {
+        "label": "reactive aerobatic flight",
+        "url": "./publications/#reactive-aerobatic-2025"
+      }
+    ]
+  }
+]
