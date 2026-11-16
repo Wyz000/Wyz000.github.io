@@ -1,0 +1,169 @@
+Figure credits
+==============
+
+Thumbnails reproduce original paper figures or author project media. Figures are resized for the website and cropped to complete panels where noted. Scientific content is unchanged.
+
+A Fully Onboard Integrated Aerial Grasping System for Moving Targets in Cluttered Environments
+Authors: Junjie Wang, Kenghou Hoi, Yuze Wu, Tianyu Zhao, Jialiang Hou, Fei Gao
+Thumbnail: assets/images/dynamic-grasp.webp
+Figure: Figure 1(d)
+Image source: Author-supplied accepted manuscript
+Processing: Extracted original Figure 1 image with its transparency composited on the source page white background; selected complete panel (d), proportionally reduced to 640 px width. No scientific annotations edited; no caption, manuscript text, or tracked changes.
+
+DiffWAM: A Fast and Efficient Navigation World Action Model
+Authors: Mo Zhu, Yuze Wu, Xijie Huang, Xiao Cui, Fei Gao, Xin Zhou
+Thumbnail: assets/images/diffwam.webp
+Paper / source page: https://zzmmzzm.github.io/diffwam.github.io/
+Image source: https://zzmmzzm.github.io/diffwam.github.io/assets/DiffWAM_toutu.jpg
+
+NavGen: Visual Generative Models as a Scalable Data Engine for Embodied 3D Navigation
+Authors: Xijie Huang, Yongyang Wan, Chengbin Dong, Zimo Ding, Mo Zhu, Yijin Wang, Zhiyang Liu, Fei Gao, Yuze Wu, Xin Zhou
+Thumbnail: assets/images/navgen.webp
+Paper / source page: https://xinjiu612.github.io/NavGen/
+Image source: https://raw.githubusercontent.com/xinjiu612/NavGen/main/public/media/figures/teaser.webp
+
+FlyMirage: A Fully Automated Generation Pipeline for Diverse and Scalable UAV Flight Data via Generative World Model
+Authors: Jinhan Li, Xijie Huang, Weiqi Gai, Zhaoqi Wang, Qiyi He, Yijin Wang, Mo Zhu, Zhiyang Liu, Fei Gao, Xin Zhou, Yuze Wu, Ziming Ding
+Thumbnail: assets/images/flymirage.webp
+Figure: Figure 1: FlyMirage pipeline and scene diversity
+Paper / source page: https://arxiv.org/abs/2605.19600
+Image source: https://arxiv.org/html/2605.19600v2/figures/teaser.jpg
+Processing: Original paper figure proportionally resized; no scientific content redrawn.
+
+PathPainter: Transferring the Generalization Ability of Image Generation Models to Embodied Navigation
+Authors: Yijin Wang, Yuru Tian, Xijie Huang, Weiqi Gai, Mo Zhu, Xin Zhou, Yuze Wu, Fei Gao
+Thumbnail: assets/images/pathpainter.webp
+Figure: Figure 1: Navigation system overview
+Paper / source page: https://arxiv.org/abs/2605.07496
+Image source: https://arxiv.org/html/2605.07496v3/img/head.jpg
+Processing: Original paper figure proportionally resized; no scientific content redrawn.
+
+NavDreamer: Video Models as Zero-Shot 3D Navigators
+Authors: Xijie Huang, Weiqi Gai, Tianyue Wu, Congyu Wang, Zhiyang Liu, Xin Zhou, Yuze Wu, Fei Gao
+Thumbnail: assets/images/navdreamer.webp
+Paper / source page: https://xinjiu612.github.io/NavDreamer/
+Image source: https://xinjiu612.github.io/NavDreamer/imgs/toutu.jpg
+
+Precise aggressive aerial maneuvers with sensorimotor policies
+Authors: Tianyue Wu, Guangtong Xu, Zihan Wang, Junxiao Lin, Tianyang Chen, Yuze Wu, Zhichao Han, Zhiyang Liu, Fei Gao
+Thumbnail: assets/images/sensorimotor.webp
+Paper / source page: https://arxiv.org/html/2604.05828v1
+Image source: https://arxiv.org/html/2604.05828v1/Fig_1.jpg
+
+Hand-like autonomous flying robot for airborne grasping and interaction
+Authors: Yuze Wu, Fan Yang, Rui Jin, Yuhang Zhong, Junjie Wang, Xuankang Wu, Fei Gao
+Thumbnail: assets/images/hi-arm-figure.webp
+Figure: Figure 1(a,b)
+Paper / source page: https://www.nature.com/articles/s41467-026-68967-3
+Image source: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-026-68967-3/MediaObjects/41467_2026_68967_Fig1_HTML.png
+Attribution: Yuze Wu et al., Nature Communications (2026), Fig. 1. © The Author(s) 2026.
+License: CC BY 4.0
+License URL: https://creativecommons.org/licenses/by/4.0/
+Processing: Selected the complete first figure group (panels a and b) and downscaled proportionally; no scientific content redrawn.
+
+A Precise Real-Time Force-Aware Grasping System for Robust Aerial Manipulation
+Authors: Kenghou Hoi, Yuze Wu, Annan Ding, Junjie Wang, Anke Zhao, Jialiang Hou, Chengqian Zhang, Fei Gao
+Thumbnail: assets/images/force-grasp.webp
+Figure: Figure 1(a)
+Paper / source page: https://arxiv.org/html/2602.08599v1
+Image source: https://arxiv.org/html/2602.08599v1/intro.png
+Processing: Selected original figure panel and downscaled proportionally; no scientific content redrawn.
+
+Embodied Navigation Foundation Model
+Authors: Jiazhao Zhang, Anqi Li, Yunpeng Qi, Minghan Li, Jiahang Liu, Shaoan Wang, Haoran Liu, Gengze Zhou, Yuze Wu, Xingxing Li, Yuxin Fan, Wenjun Li, Zhibo Chen, Fei Gao, Qi Wu, Zhizheng Zhang, He Wang
+Thumbnail: assets/images/navfom.webp
+Paper / source page: https://pku-epic.github.io/NavFoM-Web/
+Image source: https://pku-epic.github.io/NavFoM-Web/static/images/teaser1.png
+
+A Hierarchical Onboard Vision-Language-Navigation Framework for Aerial Robots in Complex Environments
+Authors: Yuze Wu, Mo Zhu, Xingxing Li, Yuheng Du, Zhaoqi Wang, Yuxin Fan, Wenjun Li, Kenghou Hoi, Zhichao Han, Xin Zhou, Fei Gao
+Thumbnail: assets/images/vln-ar.webp
+Figure: Figure 1
+Image source: Author-supplied accepted manuscript
+Processing: Read-only page rendering at 216 dpi, figure extraction, proportional reduction to 640 px width. Figure content unchanged; no caption or manuscript text.
+
+Reactive Aerobatic Flight via Reinforcement Learning
+Authors: Zhichao Han, Xijie Huang, Zhuxiu Xu, Jiarui Zhang, Yuze Wu, Mingyang Wang, Tianyue Wu, Fei Gao
+Thumbnail: assets/images/reactive-flight.webp
+Paper / source page: https://ieeexplore.ieee.org/document/11151206
+Image source: https://raw.githubusercontent.com/Wyz000/Wyz000.github.io/main/gif/RL_AF_video.gif
+Processing: Static image from a completely decoded frame; original GIF is not copied to new assets.
+
+Shape-Adaptive Planning and Control for a Deformable Quadrotor
+Authors: Yuze Wu, Zhichao Han, Xuankang Wu, Yuan Zhou, Junjie Wang, Zheng Fang, Fei Gao
+Thumbnail: assets/images/shape-adaptive.webp
+Figure: Figure 1(a)
+Paper / source page: https://arxiv.org/html/2505.15010v1
+Image source: https://arxiv.org/html/2505.15010v1/toutu.png
+Processing: Selected original figure panel and downscaled proportionally; no scientific content redrawn.
+
+FLOAT Drone: A Fully-actuated Coaxial Aerial Robot for Close-Proximity Operations
+Authors: Junxiao Lin, Shuhang Ji, Yuze Wu, Tianyue Wu, Zhichao Han, Fei Gao
+Thumbnail: assets/images/float-drone.webp
+Paper / source page: https://arxiv.org/abs/2503.00785
+Image source: https://raw.githubusercontent.com/Wyz000/Wyz000.github.io/main/gif/float-drone-10mb.gif
+Processing: Static image from a completely decoded frame; original GIF is not copied to new assets.
+
+Ring-Rotor: A Novel Retractable Ring-Shaped Quadrotor With Aerial Grasping and Transportation Capability
+Authors: Yuze Wu, Fan Yang, Ze Wang, Kaiwei Wang, Yanjun Cao, Chao Xu, Fei Gao
+Thumbnail: assets/images/ring-rotor.webp
+Figure: Opening figure, panel (a)
+Paper / source page: https://arxiv.org/html/2304.03514v1
+Image source: https://arxiv.org/html/2304.03514v1/figures/toutu3.png
+Processing: Selected original figure panel and downscaled proportionally; no scientific content redrawn.
+
+Model-Based Planning and Control for Terrestrial-Aerial Bimodal Vehicles with Passive Wheels
+Authors: Ruibin Zhang, Junxiao Lin, Yuze Wu, Yuman Gao, Chi Wang, Chao Xu, Yanjun Cao, Fei Gao
+Thumbnail: assets/images/model-based.webp
+Paper / source page: https://ieeexplore.ieee.org/document/10342188
+Image source: https://raw.githubusercontent.com/Wyz000/Wyz000.github.io/main/gif/Model-Based.gif
+Processing: Static image from a completely decoded frame; original GIF is not copied to new assets.
+
+Roller-Quadrotor: A Novel Hybrid Terrestrial-/Aerial Quadrotor with Unicycle-Driven and Rotor-Assisted Turning
+Authors: Zhi Zheng, Jin Wang, Yuze Wu, Qifeng Cai, Huan Yu, Ruibin Zhang, Jie Tu, Jun Meng, Guodong Lu, Fei Gao
+Thumbnail: assets/images/roller-quadrotor.webp
+Paper / source page: https://ieeexplore.ieee.org/document/10341703
+Image source: https://raw.githubusercontent.com/Wyz000/Wyz000.github.io/main/gif/Roller-Quadrotor.gif
+Processing: Static image from a completely decoded frame; original GIF is not copied to new assets.
+
+Autonomous and Adaptive Navigation for Terrestrial-Aerial Bimodal Vehicles
+Authors: Ruibin Zhang, Yuze Wu, Lixian Zhang, Chao Xu, Fei Gao
+Thumbnail: assets/images/adaptive-navigation.webp
+Paper / source page: https://ieeexplore.ieee.org/document/9691888
+Image source: https://raw.githubusercontent.com/Wyz000/Wyz000.github.io/main/gif/TIE_%20An%20Autonomous.gif
+Processing: Static image from a completely decoded frame; original GIF is not copied to new assets.
+
+Benchmarking Interaction-Oriented Aerial Mobility across Heterogeneous Environments
+Authors: Zhibo Duan, Hanlin Kong, Tianran Ma, Yuze Wu, Yuxuan Xu, Kenghou Hoi, Changheng Xie, Xin Zhou, Jianzhe Gao, Fei Gao, Wenguan Wang
+Thumbnail: assets/images/crossfly.webp
+Figure: Figure 1: CrossFly benchmark overview
+Paper / source page: https://arxiv.org/abs/2610.18381
+Image source: https://arxiv.org/html/2610.18381v1/crossfly-headpic-crop.png
+Processing: Original paper figure proportionally resized; no scientific content redrawn.
+
+D-VLC: Decentralized Vision-Language Collaboration for Heterogeneous Embodied Multi-Robot Systems in Unknown Environments
+Authors: Yuan Zhou, Ruitong Lin, Shen Wang, Weiqi Gai, Mo Zhu, Xin Zhou, Yuze Wu, Fei Gao
+Thumbnail: assets/images/d-vlc.webp
+Figure: Figure 1: Decentralized heterogeneous multi-robot collaboration
+Paper / source page: https://arxiv.org/abs/2607.29009
+Image source: https://arxiv.org/pdf/2607.29009v2
+Processing: Original paper figure proportionally resized; no scientific content redrawn.
+
+USS-Nav: Unified Spatio-Semantic Scene Graph for Lightweight UAV Zero-Shot Object Navigation
+Authors: Weiqi Gai, Yuman Gao, Yuan Zhou, Yufan Xie, Zhiyang Liu, Yuze Wu, Xin Zhou, Fei Gao, Zhijun Meng
+Thumbnail: assets/images/uss-nav.webp
+Figure: Figure 6: Simulation setup, object navigation and incremental scene graph
+Paper / source page: https://arxiv.org/abs/2602.00708
+Image source: https://arxiv.org/html/2602.00708v2/figs/sim_exp.jpg
+Processing: Original paper figure proportionally resized; no scientific content redrawn.
+
+Ground-Effect-Aware Modeling and Control for Multicopters
+Authors: Tiankai Yang, Kaixin Chai, Jialin Ji, Yuze Wu, Chao Xu, Fei Gao
+Thumbnail: assets/images/ground-effect.webp
+Figure: Figure 1(b)
+Paper / source page: https://arxiv.org/html/2506.19424v1
+Image source: https://arxiv.org/html/2506.19424v1/FIG1.png
+Processing: Selected original figure panel and downscaled proportionally; no scientific content redrawn.
+
+Profile photograph: Yuze Wu, from his original personal homepage.
+https://wyz000.github.io/photo/self.jpg

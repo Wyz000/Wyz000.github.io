@@ -152,5 +152,239 @@
     "source_width": 4280,
     "source_height": 1617,
     "bytes": 33098
+  },
+  "vln-ar": {
+    "id": "vln-ar-2026",
+    "thumbnail": "assets/images/vln-ar.webp",
+    "width": 640,
+    "height": 365,
+    "bytes": 76680,
+    "figure": "Figure 1",
+    "source": "Author-supplied accepted manuscript",
+    "processing": "Read-only page rendering at 216 dpi, figure extraction, proportional reduction to 640 px width. Figure content unchanged; no caption or manuscript text.",
+    "page": 1,
+    "crop": {
+      "coordinate_system": "PDF points, origin at top-left",
+      "bounds": [
+        84.0,
+        141.5,
+        528.0,
+        394.5
+      ]
+    }
+  },
+  "dynamic-grasp": {
+    "id": "dynamic-grasp-2026",
+    "thumbnail": "assets/images/dynamic-grasp.webp",
+    "width": 640,
+    "height": 426,
+    "bytes": 111342,
+    "figure": "Figure 1(d)",
+    "source": "Author-supplied accepted manuscript",
+    "processing": "Extracted original Figure 1 image with its transparency composited on the source page white background; selected complete panel (d), proportionally reduced to 640 px width. No scientific annotations edited; no caption, manuscript text, or tracked changes.",
+    "page": 1,
+    "crop": {
+      "coordinate_system": "Pixels of original embedded Figure 1 image",
+      "source_dimensions": [
+        2665,
+        1026
+      ],
+      "bounds": [
+        1164,
+        27,
+        2665,
+        1026
+      ]
+    }
+  },
+  "pathpainter": {
+    "id": "pathpainter-2026",
+    "thumbnail": "assets/images/pathpainter.webp",
+    "width": 640,
+    "height": 302,
+    "bytes": 64284,
+    "figure": "Figure 1: Navigation system overview",
+    "source": "Paper figure",
+    "source_url": "https://arxiv.org/html/2605.07496v3/img/head.jpg",
+    "source_page": "https://arxiv.org/abs/2605.07496",
+    "processing": "Original paper figure proportionally resized; no scientific content redrawn.",
+    "source_dimensions": [
+      2785,
+      1315
+    ]
+  },
+  "flymirage": {
+    "id": "flymirage-2026",
+    "thumbnail": "assets/images/flymirage.webp",
+    "width": 640,
+    "height": 242,
+    "bytes": 55734,
+    "figure": "Figure 1: FlyMirage pipeline and scene diversity",
+    "source": "Paper figure",
+    "source_url": "https://arxiv.org/html/2605.19600v2/figures/teaser.jpg",
+    "source_page": "https://arxiv.org/abs/2605.19600",
+    "processing": "Original paper figure proportionally resized; no scientific content redrawn.",
+    "source_dimensions": [
+      3379,
+      1279
+    ]
+  },
+  "d-vlc": {
+    "id": "d-vlc-2026",
+    "thumbnail": "assets/images/d-vlc.webp",
+    "width": 640,
+    "height": 340,
+    "bytes": 60826,
+    "figure": "Figure 1: Decentralized heterogeneous multi-robot collaboration",
+    "source": "Paper figure",
+    "source_url": "https://arxiv.org/pdf/2607.29009v2",
+    "source_page": "https://arxiv.org/abs/2607.29009",
+    "processing": "Original paper figure proportionally resized; no scientific content redrawn.",
+    "page": 2,
+    "crop_pt": [
+      75.24,
+      54.0,
+      536.04,
+      298.8
+    ],
+    "source_dimensions": [
+      1280,
+      680
+    ]
+  },
+  "uss-nav": {
+    "id": "uss-nav-2026",
+    "thumbnail": "assets/images/uss-nav.webp",
+    "width": 640,
+    "height": 223,
+    "bytes": 45158,
+    "figure": "Figure 6: Simulation setup, object navigation and incremental scene graph",
+    "source": "Paper figure",
+    "source_url": "https://arxiv.org/html/2602.00708v2/figs/sim_exp.jpg",
+    "source_page": "https://arxiv.org/abs/2602.00708",
+    "processing": "Original paper figure proportionally resized; no scientific content redrawn.",
+    "source_dimensions": [
+      4267,
+      1485
+    ]
+  },
+  "crossfly": {
+    "id": "crossfly-2026",
+    "thumbnail": "assets/images/crossfly.webp",
+    "width": 640,
+    "height": 229,
+    "bytes": 41114,
+    "figure": "Figure 1: CrossFly benchmark overview",
+    "source": "Paper figure",
+    "source_url": "https://arxiv.org/html/2610.18381v1/crossfly-headpic-crop.png",
+    "source_page": "https://arxiv.org/abs/2610.18381",
+    "processing": "Original paper figure proportionally resized; no scientific content redrawn.",
+    "source_dimensions": [
+      1384,
+      495
+    ]
+  },
+  "force-grasp": {
+    "id": "force-grasp-2026",
+    "thumbnail": "assets/images/force-grasp.webp",
+    "width": 640,
+    "height": 606,
+    "bytes": 46110,
+    "figure": "Figure 1(a)",
+    "source": "Paper figure",
+    "source_url": "https://arxiv.org/html/2602.08599v1/intro.png",
+    "source_page": "https://arxiv.org/html/2602.08599v1",
+    "processing": "Selected original figure panel and downscaled proportionally; no scientific content redrawn.",
+    "crop_xyxy": [
+      0,
+      0,
+      773,
+      732
+    ],
+    "original_width": 2045,
+    "original_height": 732
+  },
+  "shape-adaptive": {
+    "id": "shape-adaptive-2025",
+    "thumbnail": "assets/images/shape-adaptive.webp",
+    "width": 640,
+    "height": 406,
+    "bytes": 35752,
+    "figure": "Figure 1(a)",
+    "source": "Paper figure",
+    "source_url": "https://arxiv.org/html/2505.15010v1/toutu.png",
+    "source_page": "https://arxiv.org/html/2505.15010v1",
+    "processing": "Selected original figure panel and downscaled proportionally; no scientific content redrawn.",
+    "crop_xyxy": [
+      0,
+      0,
+      672,
+      426
+    ],
+    "original_width": 1607,
+    "original_height": 426
+  },
+  "ring-rotor": {
+    "id": "ring-rotor-2023",
+    "thumbnail": "assets/images/ring-rotor.webp",
+    "width": 640,
+    "height": 327,
+    "bytes": 38738,
+    "figure": "Opening figure, panel (a)",
+    "source": "Paper figure",
+    "source_url": "https://arxiv.org/html/2304.03514v1/figures/toutu3.png",
+    "source_page": "https://arxiv.org/html/2304.03514v1",
+    "processing": "Selected original figure panel and downscaled proportionally; no scientific content redrawn.",
+    "crop_xyxy": [
+      0,
+      0,
+      1310,
+      670
+    ],
+    "original_width": 1908,
+    "original_height": 670
+  },
+  "ground-effect": {
+    "id": "ground-effect-2025",
+    "thumbnail": "assets/images/ground-effect.webp",
+    "width": 640,
+    "height": 427,
+    "bytes": 90858,
+    "figure": "Figure 1(b)",
+    "source": "Paper figure",
+    "source_url": "https://arxiv.org/html/2506.19424v1/FIG1.png",
+    "source_page": "https://arxiv.org/html/2506.19424v1",
+    "processing": "Selected original figure panel and downscaled proportionally; no scientific content redrawn.",
+    "crop_xyxy": [
+      24,
+      755,
+      972,
+      1387
+    ],
+    "original_width": 1949,
+    "original_height": 2176
+  },
+  "hi-arm-figure": {
+    "id": "hiarm-2026",
+    "thumbnail": "assets/images/hi-arm-figure.webp",
+    "width": 640,
+    "height": 263,
+    "bytes": 24102,
+    "figure": "Figure 1(a,b)",
+    "source": "Paper figure",
+    "source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-026-68967-3/MediaObjects/41467_2026_68967_Fig1_HTML.png",
+    "source_page": "https://www.nature.com/articles/s41467-026-68967-3",
+    "processing": "Selected the complete first figure group (panels a and b) and downscaled proportionally; no scientific content redrawn.",
+    "crop_xyxy": [
+      0,
+      0,
+      2003,
+      823
+    ],
+    "original_width": 2003,
+    "original_height": 2376,
+    "credit": "Yuze Wu et al., Nature Communications (2026), Fig. 1. © The Author(s) 2026.",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/"
   }
 }

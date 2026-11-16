@@ -15,7 +15,7 @@
     "status": "accepted",
     "summary": "Fully onboard perception and planning for aerial grasping of moving targets in cluttered environments.",
     "category": "robotics",
-    "image": "",
+    "image": "assets/images/dynamic-grasp.webp",
     "label": "Dynamic\nAerial Grasping",
     "sources": [
       "https://jameshoi.github.io/"
@@ -33,7 +33,10 @@
     ],
     "author_role_sources": [
       "Author-supplied accepted manuscript, title page; verified 2026-11-16"
-    ]
+    ],
+    "image_width": 640,
+    "image_height": 426,
+    "image_alt": "Outdoor moving-target capture experiment, showing the aerial robot and mobile target."
   },
   {
     "id": "diffwam-2026",
@@ -149,7 +152,7 @@
     "note": "Use current arXiv v2 author list; coauthor homepage retains a shorter old list.",
     "selected": false,
     "category": "models",
-    "image": "",
+    "image": "assets/images/flymirage.webp",
     "featured": false,
     "label": "FlyMirage",
     "co_first_authors": [
@@ -161,7 +164,10 @@
     ],
     "author_role_sources": [
       "https://arxiv.org/pdf/2605.19600"
-    ]
+    ],
+    "image_width": 640,
+    "image_height": 242,
+    "image_alt": "FlyMirage: A Fully Automated Generation Pipeline for Diverse and Scalable UAV Flight Data via Generative World Model — Figure 1: FlyMirage pipeline and scene diversity"
   },
   {
     "id": "pathpainter-2026",
@@ -190,7 +196,7 @@
     "note": "CoRL acceptance confirmed by coauthor's September 2026 news; not independently read in proceedings.",
     "selected": false,
     "category": "models",
-    "image": "",
+    "image": "assets/images/pathpainter.webp",
     "featured": false,
     "label": "PathPainter",
     "co_first_authors": [
@@ -205,7 +211,10 @@
     "author_role_sources": [
       "https://xinjiu612.github.io/",
       "https://arxiv.org/html/2605.07496v3"
-    ]
+    ],
+    "image_width": 640,
+    "image_height": 302,
+    "image_alt": "PathPainter: Transferring the Generalization Ability of Image Generation Models to Embodied Navigation — Figure 1: Navigation system overview"
   },
   {
     "id": "navdreamer-2026",
@@ -326,7 +335,7 @@
     "old_image": "gif/HI-ARM_Movie1 Summary Presentation.gif",
     "selected": true,
     "category": "robotics",
-    "image": "assets/images/hi-arm.webp",
+    "image": "assets/images/hi-arm-figure.webp",
     "featured": true,
     "label": "HIARM",
     "co_first_authors": [
@@ -338,7 +347,10 @@
     ],
     "author_role_sources": [
       "https://www.nature.com/articles/s41467-026-68967-3"
-    ]
+    ],
+    "image_width": 640,
+    "image_height": 263,
+    "image_alt": "Hand-inspired structure: the human grasping sequence and the corresponding HI-ARM morphing sequence."
   },
   {
     "id": "force-grasp-2026",
@@ -369,7 +381,7 @@
     "note": "ICRA 2026 confirmed by user CV and coauthor homepage; use full PDF/HTML author list, which includes Jialiang Hou missing from arXiv abstract metadata.",
     "selected": false,
     "category": "robotics",
-    "image": "",
+    "image": "assets/images/force-grasp.webp",
     "featured": false,
     "label": "Force-aware\nGrasping",
     "co_first_authors": [
@@ -384,7 +396,10 @@
     ],
     "author_role_sources": [
       "https://arxiv.org/pdf/2602.08599"
-    ]
+    ],
+    "image_width": 640,
+    "image_height": 606,
+    "image_alt": "Force-aware aerial grasping of toy blocks with the tactile sensor inset."
   },
   {
     "id": "navfom-2026",
@@ -467,7 +482,7 @@
     "note": "Acceptance and final manuscript submission confirmed directly by Yuze Wu. Final title, full author order and contribution roles verified from the author-supplied final manuscript on 2026-11-16. The linked earlier version is VLA-AN, not the accepted journal version.",
     "selected": true,
     "category": "models",
-    "image": "assets/images/vla-an.webp",
+    "image": "assets/images/vln-ar.webp",
     "featured": true,
     "label": "VLN-AR",
     "related_preprint": "https://arxiv.org/abs/2512.15258",
@@ -482,7 +497,10 @@
     ],
     "author_role_sources": [
       "Author-supplied accepted manuscript, title page; verified 2026-11-16"
-    ]
+    ],
+    "image_width": 640,
+    "image_height": 365,
+    "image_alt": "Complete overview of VLN-AR data collection, multi-stage training, and onboard navigation."
   },
   {
     "id": "reactive-aerobatic-2025",
@@ -556,7 +574,7 @@
     "note": "CV says IROS 2024 but arXiv, old homepage and proceedings metadata support 2025. Publisher direct page blocked; DOI identified through bibliographic metadata.",
     "selected": false,
     "category": "robotics",
-    "image": "",
+    "image": "assets/images/shape-adaptive.webp",
     "featured": false,
     "label": "Shape-Adaptive\nFlight",
     "co_first_authors": [
@@ -569,7 +587,10 @@
     ],
     "author_role_sources": [
       "https://arxiv.org/pdf/2505.15010"
-    ]
+    ],
+    "image_width": 640,
+    "image_height": 406,
+    "image_alt": "Shape-adaptive planning overview with deformation trajectories."
   },
   {
     "id": "float-2025",
@@ -634,7 +655,7 @@
     "old_image": "gif/RingRotor_0905.gif",
     "selected": false,
     "category": "robotics",
-    "image": "",
+    "image": "assets/images/ring-rotor.webp",
     "featured": false,
     "label": "Ring-Rotor",
     "co_first_authors": [],
@@ -643,7 +664,10 @@
     ],
     "author_role_sources": [
       "https://arxiv.org/pdf/2304.03514"
-    ]
+    ],
+    "image_width": 640,
+    "image_height": 327,
+    "image_alt": "Long-exposure demonstration of Ring-Rotor deforming through a narrow gap."
   },
   {
     "id": "model-based-tabv-2023",
@@ -784,7 +808,7 @@
     "selected": false,
     "category": "models",
     "featured": false,
-    "image": "",
+    "image": "assets/images/crossfly.webp",
     "label": "CROSSFLY",
     "co_first_authors": [
       "Zhibo Duan",
@@ -795,7 +819,10 @@
     ],
     "author_role_sources": [
       "https://bozhistudying233.github.io/CrossFly/"
-    ]
+    ],
+    "image_width": 640,
+    "image_height": 229,
+    "image_alt": "Benchmarking Interaction-Oriented Aerial Mobility across Heterogeneous Environments — Figure 1: CrossFly benchmark overview"
   },
   {
     "id": "d-vlc-2026",
@@ -824,7 +851,7 @@
     "selected": false,
     "category": "models",
     "featured": false,
-    "image": "",
+    "image": "assets/images/d-vlc.webp",
     "label": "D",
     "co_first_authors": [
       "Yuan Zhou",
@@ -837,7 +864,10 @@
     ],
     "author_role_sources": [
       "https://arxiv.org/pdf/2607.29009v2"
-    ]
+    ],
+    "image_width": 640,
+    "image_height": 340,
+    "image_alt": "D-VLC: Decentralized Vision-Language Collaboration for Heterogeneous Embodied Multi-Robot Systems in Unknown Environments — Figure 1: Decentralized heterogeneous multi-robot collaboration"
   },
   {
     "id": "uss-nav-2026",
@@ -866,7 +896,7 @@
     "selected": false,
     "category": "models",
     "featured": false,
-    "image": "",
+    "image": "assets/images/uss-nav.webp",
     "label": "USS",
     "co_first_authors": [],
     "corresponding_authors": [
@@ -875,7 +905,10 @@
     ],
     "author_role_sources": [
       "https://arxiv.org/html/2602.00708v2"
-    ]
+    ],
+    "image_width": 640,
+    "image_height": 223,
+    "image_alt": "USS-Nav: Unified Spatio-Semantic Scene Graph for Lightweight UAV Zero-Shot Object Navigation — Figure 6: Simulation setup, object navigation and incremental scene graph"
   },
   {
     "id": "ground-effect-2025",
@@ -903,7 +936,7 @@
     "selected": false,
     "category": "robotics",
     "featured": false,
-    "image": "",
+    "image": "assets/images/ground-effect.webp",
     "label": "GROUND",
     "co_first_authors": [],
     "corresponding_authors": [
@@ -912,6 +945,9 @@
     "author_role_sources": [
       "https://arxiv.org/pdf/2506.19424",
       "https://arxiv.org/html/2506.19424"
-    ]
+    ],
+    "image_width": 640,
+    "image_height": 427,
+    "image_alt": "Airflow visualization of a multicopter close to the ground."
   }
 ]
