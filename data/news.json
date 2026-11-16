@@ -1,13 +1,34 @@
 [
   {
-    "date": "2026-11",
-    "label": "Nov. 2026",
-    "text": "Our papers on onboard aerial VLN and dynamic aerial grasping have been accepted by IEEE T-RO and IEEE/ASME T-Mech, respectively.",
+    "pinned": true,
+    "text": "GPT-6 Astra for embodied navigation — experiments and demonstrations.",
     "links": [
       {
-        "label": "onboard aerial VLN",
+        "label": "GPT-6 Astra for embodied navigation",
+        "url": "https://wyz000.github.io/blog/gpt6-astra-navigation/"
+      }
+    ]
+  },
+  {
+    "date": "2026-11",
+    "label": "Nov. 2026",
+    "text": "Our paper “A Hierarchical Onboard Vision-Language-Navigation Framework for Aerial Robots in Complex Environments” has been accepted by IEEE T-RO!",
+    "links": [
+      {
+        "label": "A Hierarchical Onboard Vision-Language-Navigation Framework for Aerial Robots in Complex Environments",
         "url": "./publications/#vln-ar-2026"
-      },
+      }
+    ],
+    "emphasis": [
+      "IEEE T-RO"
+    ],
+    "highlight": true
+  },
+  {
+    "date": "2026-11",
+    "label": "Nov. 2026",
+    "text": "Our paper on dynamic aerial grasping has been accepted by IEEE/ASME T-Mech.",
+    "links": [
       {
         "label": "dynamic aerial grasping",
         "url": "./publications/#dynamic-grasp-2026"
@@ -100,13 +121,17 @@
   {
     "date": "2026-01",
     "label": "Jan. 2026",
-    "text": "HI-ARM, our hand-like flying robot for airborne grasping and interaction, is published in Nature Communications.",
+    "text": "Our paper “Hand-like autonomous flying robot for airborne grasping and interaction” is published in Nature Communications!",
     "links": [
       {
-        "label": "HI-ARM",
-        "url": "./publications/#hiarm-2026"
+        "label": "Hand-like autonomous flying robot for airborne grasping and interaction",
+        "url": "https://www.nature.com/articles/s41467-026-68967-3"
       }
-    ]
+    ],
+    "emphasis": [
+      "Nature Communications"
+    ],
+    "highlight": true
   },
   {
     "date": "2025-09",

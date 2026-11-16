@@ -114,10 +114,30 @@ def news_items(items):
     rows = []
     for item in items:
         text = E(item['text'])
+        for phrase in item.get('emphasis', []):
+            text = text.replace(E(phrase), f'<strong>{E(phrase)}</strong>', 1)
         for link in item.get('links', []):
             text = text.replace(E(link['label']), f'<a href="{E(link["url"])}">{E(link["label"])}</a>', 1)
-        rows.append(f'<li><time datetime="{E(item["date"])}">[{E(item["label"])}]</time> <span>{text}</span></li>')
+        if item.get('highlight'):
+            text += ' <span class="news-celebration" aria-hidden="true">🎉🎉</span>'
+        if item.get('pinned'):
+            marker = '<span class="news-pin"><span aria-hidden="true">📌</span> Pinned</span>'
+            css = ' class="news-pinned"'
+        else:
+            marker = f'<time datetime="{E(item["date"])}">[{E(item["label"])}]</time>'
+            css = ' class="news-highlight"' if item.get('highlight') else ''
+        rows.append(f'<li{css}>{marker} <span>{text}</span></li>')
     return '<ul class="news-list">' + ''.join(rows) + '</ul>'
+
+def news_content():
+    pinned = [item for item in NEWS if item.get('pinned')]
+    timeline = [item for item in NEWS if not item.get('pinned')]
+    # Keep highlighted announcements visible while preserving chronological order.
+    visible_count = max([8] + [i + 1 for i, item in enumerate(timeline) if item.get('highlight')])
+    content = (news_items(pinned) if pinned else '') + news_items(timeline[:visible_count])
+    if timeline[visible_count:]:
+        content += f'<details class="earlier-news"><summary>Earlier news</summary>{news_items(timeline[visible_count:])}</details>'
+    return content
 
 def about():
     selected = [
@@ -135,11 +155,10 @@ def about():
 <div class="intro"><p>I received my Ph.D. in Control Science and Engineering from <strong>Zhejiang University (ZJU)</strong> in 2026, advised by <a href="http://zju-fast.com/research-group/fei-gao/">Prof. Fei Gao</a> at <a href="http://zju-fast.com/">FAST Lab</a>. Previously, I earned my B.Eng. in Automation from ZJU in 2021. During my studies, I received the Zhejiang University First-Class Scholarship and was named an Outstanding Graduate of Zhejiang Province. As a core team member, I also helped lead a Young Scientist Project under China’s National Key R&amp;D Program.</p>
 <p>I am currently the <strong>Foundation Model Lead</strong> at <a href="{PROFILE['organization_url']}">Differential Robotics</a> and a <strong>postdoctoral researcher in a joint program between Differential Robotics and Zhejiang University</strong>. I lead research on embodied intelligence and large-scale AI models, focusing on <strong>robot foundation models, world models, embodied robot swarms, reinforcement learning, and planning &amp; control</strong> for real-world robots. I also <a href="./mentoring/">mentor students</a> and welcome research discussions and collaborations.</p></div>
 {social_links()}</div>
-<section class="section" aria-labelledby="news-title"><h2 id="news-title">News</h2>{news_items(NEWS[:8])}<details class="earlier-news"><summary>Earlier news</summary>{news_items(NEWS[8:])}</details></section>
+<section class="section" aria-labelledby="news-title"><h2 id="news-title">News</h2>{news_content()}</section>
 <section class="section" aria-labelledby="selected-title"><div class="section-heading"><h2 id="selected-title">Selected publications</h2><a href="./publications/">View publications →</a></div>{AUTHOR_LEGEND}<div class="pub-list">{cards}</div></section>
 <section class="section" aria-labelledby="honors-title"><h2 id="honors-title">Honors &amp; awards</h2><ul class="compact-list">{''.join('<li>'+E(award)+'</li>' for award in PROFILE['honors'])}</ul></section>
-<section class="section" aria-labelledby="education-title"><h2 id="education-title">Education</h2><ul class="compact-list education-list"><li><span class="education-date">2021.09 – 2026.06</span> <strong>Ph.D. in Control Science and Engineering</strong>, Zhejiang University. <span class="quiet-note">Advisor: Prof. Fei Gao.</span></li><li><span class="education-date">2017.09 – 2021.06</span> <strong>B.Eng. in Automation</strong>, Zhejiang University.</li></ul></section>
-<section class="section" aria-labelledby="notes-title"><h2 id="notes-title">Research notes</h2><p class="research-note"><a href="https://wyz000.github.io/blog/gpt6-astra-navigation/">GPT-6 Astra for embodied navigation</a> <span class="quiet-note">— experiments and demonstrations</span></p></section>'''
+<section class="section" aria-labelledby="education-title"><h2 id="education-title">Education</h2><ul class="compact-list education-list"><li><span class="education-date">2021.09 – 2026.06</span> <strong>Ph.D. in Control Science and Engineering</strong>, Zhejiang University. <span class="quiet-note">Advisor: Prof. Fei Gao.</span></li><li><span class="education-date">2017.09 – 2021.06</span> <strong>B.Eng. in Automation</strong>, Zhejiang University.</li></ul></section>'''
 
 def publications():
     groups = ''
