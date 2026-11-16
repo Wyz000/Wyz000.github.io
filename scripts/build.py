@@ -116,7 +116,12 @@ def news_items(items):
     return '<ul class="news-list">' + ''.join(rows) + '</ul>'
 
 def about():
-    selected = ['diffwam-2026','vln-ar-2026','navdreamer-2026','navfom-2026','hiarm-2026']
+    selected = [
+        'hiarm-2026', 'vln-ar-2026', 'diffwam-2026',
+        'dynamic-grasp-2026', 'force-grasp-2026', 'shape-adaptive-2025',
+        'ring-rotor-2023', 'pathpainter-2026', 'navdreamer-2026',
+        'navgen-2026', 'flymirage-2026', 'd-vlc-2026', 'navfom-2026'
+    ]
     by_id = {paper['id']:paper for paper in PAPERS}
     cards = ''.join(paper_card(by_id[key],compact=True) for key in selected if key in by_id)
     return f'''<div class="about-body"><figure class="portrait"><img src="./assets/images/yuze-wu.jpg" alt="Yuze Wu" width="400" height="400" fetchpriority="high"><figcaption>Embodied intelligence &amp;<br>robot foundation models</figcaption></figure>
