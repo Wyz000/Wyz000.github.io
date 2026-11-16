@@ -95,7 +95,12 @@
     "date": "2026-06",
     "label": "Jun. 2026",
     "text": "I graduated from Zhejiang University with a Ph.D. in Control Science and Engineering, advised by Prof. Fei Gao.",
-    "links": []
+    "links": [
+      {
+        "label": "Prof. Fei Gao",
+        "url": "https://feigao-robotics.com/"
+      }
+    ]
   },
   {
     "date": "2026-06",
