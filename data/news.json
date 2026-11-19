@@ -13,11 +13,19 @@
   {
     "date": "2026-11",
     "label": "Nov. 2026",
-    "text": "Our paper “A Hierarchical Onboard Vision-Language-Navigation Framework for Aerial Robots in Complex Environments” has been accepted by IEEE T-RO!",
+    "text": "Our paper “A Hierarchical Onboard Vision-Language-Navigation Framework for Aerial Robots in Complex Environments” is now published in IEEE T-RO! The project page and arXiv preprint are available.",
     "links": [
       {
         "label": "A Hierarchical Onboard Vision-Language-Navigation Framework for Aerial Robots in Complex Environments",
-        "url": "./publications/#vln-ar-2026"
+        "url": "https://ieeexplore.ieee.org/document/11803153"
+      },
+      {
+        "label": "project page",
+        "url": "https://wyz000.github.io/VLN-AR/"
+      },
+      {
+        "label": "arXiv preprint",
+        "url": "https://arxiv.org/abs/2611.23930"
       }
     ],
     "emphasis": [

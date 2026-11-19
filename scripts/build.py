@@ -100,7 +100,7 @@ def paper_card(paper, base='./', compact=False):
     else:
         artwork = E(paper.get('label','Research')).replace(chr(10),'<br>')
         media = f'<a class="pub-art" href="{E(target)}" aria-label="Read {title}">{artwork}</a>' if target else f'<div class="pub-art">{artwork}</div>'
-    links = ''.join(f'<a class="pub-link" href="{E(paper[key])}">{label}</a>' for key, label in [('paper','Paper'),('pdf','PDF'),('project','Project'),('code','Code'),('video','Video'),('related_preprint','Earlier version: VLA-AN')] if paper.get(key))
+    links = ''.join(f'<a class="pub-link" href="{E(paper[key])}">{label}</a>' for key, label in [('paper','Paper'),('arxiv_url','arXiv'),('pdf','PDF'),('project','Project'),('code','Code'),('video','Video'),('related_preprint','Earlier version: VLA-AN')] if paper.get(key))
     venue = f'{E(paper["venue"])} · {paper["year"]}'
     if paper['status']=='preprint': venue += ' · Preprint'
     elif paper['status']=='accepted': venue += ' · Accepted'

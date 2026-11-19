@@ -474,12 +474,15 @@
     ],
     "year": 2026,
     "venue": "IEEE Transactions on Robotics",
-    "status": "accepted",
+    "status": "published",
     "summary": "A hierarchical onboard vision-language navigation framework for aerial robots, extending VLA-AN.",
     "sources": [
-      "https://arxiv.org/abs/2512.15258"
+      "https://ieeexplore.ieee.org/document/11803153",
+      "https://arxiv.org/abs/2611.23930",
+      "https://wyz000.github.io/VLN-AR/",
+      "https://api.crossref.org/works/10.1109/TRO.2026.3754505"
     ],
-    "note": "Acceptance and final manuscript submission confirmed directly by Yuze Wu. Final title, full author order and contribution roles verified from the author-supplied final manuscript on 2026-11-16. The linked earlier version is VLA-AN, not the accepted journal version.",
+    "note": "Journal publication, DOI, and pages verified from the arXiv record, project website, and Crossref on 2026-11-19. Final title, full author order and contribution roles verified from the author-supplied final manuscript on 2026-11-16. VLA-AN remains linked separately as the earlier version.",
     "selected": true,
     "category": "models",
     "image": "assets/images/vln-ar.webp",
@@ -500,7 +503,14 @@
     ],
     "image_width": 640,
     "image_height": 365,
-    "image_alt": "Complete overview of VLN-AR data collection, multi-stage training, and onboard navigation."
+    "image_alt": "Complete overview of VLN-AR data collection, multi-stage training, and onboard navigation.",
+    "paper": "https://ieeexplore.ieee.org/document/11803153",
+    "project": "https://wyz000.github.io/VLN-AR/",
+    "arxiv": "2611.23930",
+    "arxiv_url": "https://arxiv.org/abs/2611.23930",
+    "pdf": "https://arxiv.org/pdf/2611.23930",
+    "doi": "10.1109/TRO.2026.3754505",
+    "pages": "1--20"
   },
   {
     "id": "reactive-aerobatic-2025",

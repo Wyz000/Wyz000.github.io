@@ -79,6 +79,7 @@ A Hierarchical Onboard Vision-Language-Navigation Framework for Aerial Robots in
 Authors: Yuze Wu, Mo Zhu, Xingxing Li, Yuheng Du, Zhaoqi Wang, Yuxin Fan, Wenjun Li, Kenghou Hoi, Zhichao Han, Xin Zhou, Fei Gao
 Thumbnail: assets/images/vln-ar.webp
 Figure: Figure 1
+Paper / source page: https://ieeexplore.ieee.org/document/11803153
 Image source: Author-supplied accepted manuscript
 Processing: Read-only page rendering at 216 dpi, figure extraction, proportional reduction to 640 px width. Figure content unchanged; no caption or manuscript text.
 
